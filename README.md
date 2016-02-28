@@ -33,7 +33,7 @@ A tiny class for pixel manipulation.
 to `1`.
 
 #### Return
-- **** PixelClass The `PixelClass` instance.
+- **PixelClass** The `PixelClass` instance.
 
 ### `intensity()`
 Calculates the pixel intensity.
