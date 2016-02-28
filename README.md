@@ -13,22 +13,33 @@ $ npm i --save pixel-class
 ```js
 "use strict";
 
-const pixelClass = require("pixel-class");
+const Pixel = require("pixel-class");
 
-console.log(pixelClass());
+let p = new Pixel(42, 7, 6, 0.5);
+console.log(p);
+console.log(p.intensity());
 ```
 
 ## Documentation
 
-### `PixelClass(options)`
+### `PixelClass(r, g, b, a)`
 A tiny class for pixel manipulation.
 
 #### Params
-- **Object** `options`: An object containing the following fields:
- - `fieldOne` (Number): Any number (default: `42`).
+- **Number|Object** `r`: The *red* value of the pixel (0-255) or an object containing the `r`, `g`, `b`, `a` fields.
+- **Number** `g`: The *green* value of the pixel (0-255).
+- **Number** `b`: The *blue* value of the pixel (0-255).
+- **Number** `a`: The *alpha* (opacity) value of the pixel. If greater then `1`, it will be normalized to a value between `0` and `1`. Defaults
+to `1`.
 
 #### Return
 - **** PixelClass The `PixelClass` instance.
+
+### `intensity()`
+Calculates the pixel intensity.
+
+#### Return
+- **Number** The pixel intensity (0-255).
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].

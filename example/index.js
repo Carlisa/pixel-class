@@ -1,5 +1,7 @@
 "use strict";
 
-const pixelClass = require("../lib");
+const Pixel = require("../lib");
 
-console.log(pixelClass());
+let p = new Pixel(42, 7, 6, 0.5);
+console.log(p);
+console.log(p.intensity());

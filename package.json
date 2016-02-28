@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/pixel-class/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/pixel-class#readme"
+  "homepage": "https://github.com/IonicaBizau/pixel-class#readme",
+  "dependencies": {
+    "deffy": "^2.2.1"
+  }
 }
