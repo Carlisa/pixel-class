@@ -1,5 +1,7 @@
 
-# pixel-class [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/pixel-class.svg)](https://www.npmjs.com/package/pixel-class) [![Downloads](https://img.shields.io/npm/dt/pixel-class.svg)](https://www.npmjs.com/package/pixel-class) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# pixel-class
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/pixel-class.svg)](https://www.npmjs.com/package/pixel-class) [![Downloads](https://img.shields.io/npm/dt/pixel-class.svg)](https://www.npmjs.com/package/pixel-class) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A tiny class for pixel manipulation.
 
@@ -49,15 +51,6 @@ Calculates the pixel intensity.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`asciify-pixel`](https://github.com/IonicaBizau/asciify-pixel#readme)—Asciifies a pixel object.
- - [`gm-tools`](https://github.com/IonicaBizau/gm-tools#readme)—Friendly tools for interacting with GraphicsMagick.
- - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
- - [`lwip-pixels`](https://github.com/IonicaBizau/lwip-pixels#readme)—Get a matrix of pixels from a lwip image object.
- - [`pixel-bg`](https://github.com/IonicaBizau/pixel-bg#readme)—Change the pixel background color.
 
 ## :scroll: License
 
