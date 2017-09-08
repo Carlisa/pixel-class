@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 A tiny class for pixel manipulation.
 
 #### Params
+
 - **Number|Object** `r`: The *red* value of the pixel (0-255) or an object containing the `r`, `g`, `b`, `a` fields.
 - **Number** `g`: The *green* value of the pixel (0-255).
 - **Number** `b`: The *blue* value of the pixel (0-255).
