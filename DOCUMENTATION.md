@@ -22,3 +22,15 @@ Calculates the pixel intensity.
 #### Return
 - **Number** The pixel intensity (0-255).
 
+### `toHex()`
+converts the input color to a hexadecimal string, this removes opacity
+
+#### Return
+- **String** The color as hexadecimal string.
+
+### `toRGBAString()`
+converts the input color to a RGBA string.
+
+#### Return
+- **String** The color as RGBA string.
+

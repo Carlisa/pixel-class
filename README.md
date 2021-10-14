@@ -77,8 +77,10 @@ yarn add pixel-class
 const Pixel = require("pixel-class");
 
 let p = new Pixel(42, 7, 6, 0.5);
-console.log(p);
-console.log(p.intensity());
+console.log("color: ",p);
+console.log("intensity: ",p.intensity());
+console.log("hex: ",p.toHex());
+console.log("rgba string: ",p.toRGBAString());
 ```
 
 
@@ -127,6 +129,18 @@ Calculates the pixel intensity.
 
 #### Return
 - **Number** The pixel intensity (0-255).
+
+### `toHex()`
+converts the input color to a hexadecimal string, this removes opacity
+
+#### Return
+- **String** The color as hexadecimal string.
+
+### `toRGBAString()`
+converts the input color to a RGBA string.
+
+#### Return
+- **String** The color as RGBA string.
 
 
 
