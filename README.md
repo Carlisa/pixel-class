@@ -131,7 +131,7 @@ Calculates the pixel intensity.
 - **Number** The pixel intensity (0-255).
 
 ### `toHex()`
-converts the input color to a hexadecimal string, this removes opacity
+converts the input color to a hexadecimal string, this removes opacity.
 
 #### Return
 - **String** The color as hexadecimal string.
